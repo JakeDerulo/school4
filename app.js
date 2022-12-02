@@ -1,5 +1,7 @@
 const API_KEY = "&apikey=c09cccb2";
 const url="https://omdbapi.com/?s=";
+
+//elementit domista
 const buttonEl=document.querySelector('#search');
 const inputEl=document.querySelector('#userInput');
 const searchEl=document.querySelector('#movies');
@@ -34,8 +36,11 @@ const movieBlock = createMovie(movies);
 searchEl.appendChild(movieBlock);
 console.log("Data:", data);
 }
+
+//klikkauksen ominaisuudet
 buttonEl.onclick=function(event) {  
-    event.preventDefault();  
+    event.preventDefault(); 
+    //virhe viesti jos käyttäjä ei kirjota mitään ja painaa etsi nappulaa
     const value = inputEl.value;
    if (inputEl.value == "") {
     alert("Et voi etsiä elokuvaa jolla ei ole nimeä.");
