@@ -1,0 +1,44 @@
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+body {
+    background-color: #4d7383;
+    color: #f7f7f7;
+}
+
+
+#userInput {
+    width: 450px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+#search {
+    color: white;
+    background-color: rgb(167, 22, 34);
+    font-size: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+
+
+}
+
+section {
+    padding-top: 25px;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+
+}
+
+section img {
+    width: 550px;
+}
